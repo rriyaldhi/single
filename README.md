@@ -1,6 +1,6 @@
 ### Single
 
-Simple single-page MVC PHP framework.
+Simple MVC PHP framework.
 
 #### Example Usage
 
