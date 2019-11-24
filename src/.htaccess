@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^([a-zA-Z]*)?/?$ index.php?action=$1&param=null [NC,L]
+RewriteRule ^api/([a-zA-Z]*)?(/)?(.*)?$ index.php?action=$1&param=$3 [NC,L]
